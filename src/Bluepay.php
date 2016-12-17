@@ -85,6 +85,11 @@ class Bluepay
 		$this->params['PAYMENT_TYPE'] = 'CREDIT';
 	}
 
+	public function setToken($token)
+	{
+		$this->params['MASTER_ID'] = $token;
+	}
+
 	public function setACH($route, $account, $type = 'C', $memo = '')
 	{
 		$this->params['PAYMENT_ACCOUNT'] = "{$type}:{$route}:{$account}";
