@@ -1,2 +1,2 @@
 # Installation
-```composer require arleslie/bluepay-php```
+```composer require epjwhiz2/bluepay-php```

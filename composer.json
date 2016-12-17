@@ -1,11 +1,15 @@
 {
-    "name": "arleslie/bluepay-php",
+    "name": "epjwhiz2/bluepay-php",
     "description": "PHP SDK for Bluepay 2.0 API",
     "license": "MIT",
     "authors": [
         {
             "name": "Andrew Leslie",
             "email": "arleslie@arleslie.com"
+        },
+        {
+            "name": "Erik Jacobson",
+            "email": "epjwhiz2@gmail.com"
         }
     ],
     "require": {
@@ -13,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "arleslie\\Bluepay\\": "src/"
+            "epjwhiz2\\Bluepay\\": "src/"
         }
     }
 }
