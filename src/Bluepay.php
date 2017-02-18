@@ -1,6 +1,6 @@
 <?php
 
-namespace arleslie\Bluepay;
+namespace epjwhiz2\Bluepay;
 
 use \Symfony\Component\HttpFoundation\Response;
 use GuzzleHttp\Client as Guzzle;
